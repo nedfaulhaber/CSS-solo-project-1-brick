@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html body {
+  margin: 0px;
+}
+
+body {
+  /*background-color: #753D53;*/
+  background-color: #ba94a3;
+}
+
+.header {
+  position: relative;
+  height: 70px;
+  box-shadow: 0 2px 3px -3px grey;
+  background-color: lightgrey;
+}
+
+.header h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.small-text {
+  font-size: 18px;
+}
+
+.product-text {
+  display: block;
+  position: absolute;
+  top: 185px;
+  left: 450px;
+  font-size: 20px;
+}
+
+.brick {
+  font-size: 45px;
+  color: #4e3329;
+  text-shadow: 0 0px 1px #100401;
+}
+
+
+.product img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  float: left;
+  top: 205px;
+  margin-left: 75px;
+  margin-top: 0px;
+}
+
+.product::before {
+  content: url(../img/wow.png);
+  width: 100px;
+  height:100px;
+  position: absolute;
+  top: 630px;
+  left: 120px;
+
+}
+.gallery {
+  float: right;
+  margin-right: 35px;
+}
+
+.gallery h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 4px;
+}
+
+.gallery h4 {
+  text-align: center;
+}
+
+
+ul li {
+  list-style: none;
+  margin-bottom: 50px;
+
+}
+
+ul li img {
+  border-radius: 10%;
+}
+
+.button {
+  position: absolute;
+  top: 475px;
+  left: 200px;
+}

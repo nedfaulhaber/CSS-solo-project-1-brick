@@ -27,6 +27,8 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  font-family: Anton;
+  font-size: 50px;
 }
 
 .small-text {
@@ -36,9 +38,10 @@ body {
 .product-text {
   display: block;
   position: absolute;
-  top: 185px;
-  left: 450px;
+  top: 135px;
+  left: 420px;
   font-size: 20px;
+  font-family: Playfair Display, serif;
 }
 
 .brick {
@@ -93,8 +96,74 @@ ul li img {
   border-radius: 10%;
 }
 
-.button {
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid;
+  border-width: thin;
+  border-color: #003333;
+  background-color: #41B8B8;
+  color: #003333;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Bitter;
+
+}
+
+button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.customer-info {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-family: Bitter;
+}
+
+.payment-info {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-family: Bitter;
+}
+
+input {
+  border: none;
+  width: 390px;
+  padding: 10px 0 10px 3px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 8px 0px;
+}
+
+input:focus {
+  background-color: #CDD2A7;
+}
+
+.link {
+  display: block;
   position: absolute;
-  top: 475px;
-  left: 200px;
+  top: 875px;
+  margin-left: 50%;
+  margin-right: -50%;
+  text-decoration: none;
+  border: solid;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid;
+  border-width: thin;
+  border-color: #003333;
+  background-color: #41B8B8;
+  color: #003333;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Bitter;
 }
